@@ -1,0 +1,56 @@
+/* 1. element selector */
+/* h1{
+    color: red;
+}
+h2{
+    background-color: green;
+} */
+/* -------------------- */
+
+
+/* 2. Id selector*/
+/* p{
+    color: yellow;
+} */
+
+/* #third{
+    color: blue;
+} */
+
+/* -------------------- */
+
+/* 3. class selector */
+/* .vohra{
+    font-size: 50px;
+} */
+
+
+/* -------------------- */
+
+/* 4. attribute selector */
+
+/* input{
+    background-color: red;
+} */
+
+input[type="text"]{
+    background-color: green;
+}
+
+
+/* a{
+    font-size: 36px;
+} */
+
+a[href="http://google.com"]{
+    font-size: 36px;
+}
+
+
+/* -------------------- */
+
+/* 5. universal selector */
+
+*{
+    border: 5px dashed red;
+}

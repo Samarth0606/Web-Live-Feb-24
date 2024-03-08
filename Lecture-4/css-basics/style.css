@@ -1,0 +1,18 @@
+h1{
+    color: red;
+    background-color: yellow;
+    /* border: 2px solif black; */
+}
+
+article{
+
+    /* border: 50px dashed black; */
+    /* border: 50px dotted black; */
+    border: 50px solid black;
+
+}
+
+/* ----------------- */
+h2{
+    color: yellow;
+}
