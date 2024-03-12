@@ -1,0 +1,47 @@
+/* % -> depends parent */
+/* div{
+    border: 2px solid black;
+    width: 100%;
+
+}
+
+section{
+    border: 2px solid red;
+    width: 700px;
+} */
+/* ---------------- */
+
+/* div{
+    border: 2px solid black;
+    width: 100%;
+
+}
+
+section{
+    border: 2px solid red;
+    width: 100%;
+}
+body{
+    width: 250px;
+} */
+
+/* ---------------------------------- */
+
+/* parent */
+/* ul>li{
+    font-size: 2em;
+} */
+
+/* ----------------------- */
+
+/* root -> html-> 16px */
+/* ul>li{
+    font-size: 2rem;
+} */
+
+/* vh vw -> mdn */
+
+
+
+
+
