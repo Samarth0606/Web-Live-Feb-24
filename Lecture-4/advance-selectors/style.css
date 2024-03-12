@@ -1,0 +1,62 @@
+/* li{
+    color: red;
+} */
+
+/* advance -> 1.combinators */
+/* 1. desc */
+article span{
+    color: red;
+}
+article li{
+    font-size: 30px;
+}
+
+article div ul li{
+    font-size: 30px;
+}
+/* article > div > ul > li{
+    font-size: 30px;
+} */
+article div li{
+    font-size: 30px;
+}
+article ul li{
+    font-size: 30px;
+}
+
+/* 2. child */
+
+/* section  div span{
+    color: green;
+} */
+
+/* section > div span{
+    color: green;
+} */
+
+/* --------------- */
+/*3. adja sibling*/
+/* 
+div > h1 + p {
+    color: orange;
+} */
+
+/* div > h1 + p + p{
+    color: orange;
+}
+
+h1 + p{
+    background-color: red;
+} */
+
+
+
+/* --------------- */
+/* 4.general subling */
+
+div > h1 + p ~ p {
+    color: orange;
+}
+
+
+/* /Representations: descendent " ", child ">", adjacent sibling "+", general sibling "~". */

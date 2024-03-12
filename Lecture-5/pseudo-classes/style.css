@@ -1,0 +1,27 @@
+
+
+
+/* h1{
+    font-size: 50px;
+} */
+
+/* pseudo classes */
+/* content: " vohra aaj aapko css padha rha hai jai mata di"; */
+/* h1::after{
+    content: '\1F607';
+} */
+
+/* backslash */
+/* h1::before{
+    content: "\1FAE0";
+} */
+
+/* h1::first-letter{
+    color:yellowgreen;
+    font-size: 200px;
+}
+
+p::first-line{
+    color: orange;
+} */
+
