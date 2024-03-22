@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    min-height: 70px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+ul{
+ display: flex;
+ flex-direction: row;
+ justify-content: space-around;
+ width: 40vw;
+ list-style: none;
+}
+
+h1 , li{
+    color: white;
+}
+button{
+    height: 40px;
+    width: 70px;
+}
+
+
+@media screen and (max-width:767px){
+    nav , ul{
+        flex-direction: column;
+        align-items: center;
+    }
+    h1 ,li , button , ul{
+        margin: 5px 0px;
+    }
+}
+

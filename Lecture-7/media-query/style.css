@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+div{
+    width: 400px;
+    height: 400px;
+    border: 5px solid black;
+    margin: 20px auto;
+    padding: 10px;
+
+}
+
+
+/* @media screen */
+/* @media all */
+/* @media print and (width:767px){
+    h1{
+        color: red;
+    }
+    p{
+        background-color: green;
+    }
+} */
+
+/* @media screen and (width:767px){
+    h1{
+        color: red;
+    }
+    p{
+        background-color: green;
+    }
+} */
+
+/* -------------------------------------- */
+/* 0 yo 767 */
+
+/* @media screen and (max-width:1200px){
+    h1{
+        color: orange;
+    }
+    p{
+        background-color: lavenderblush;
+    }
+}
+
+@media screen and (max-width:991px){
+    h1{
+        color: blue;
+    }
+    p{
+        background-color: yellow;
+    }
+}
+
+
+@media screen and (max-width:767px){
+    h1{
+        color: red;
+    }
+    p{
+        background-color: green;
+    }
+} */
+
+/* ------------------------------------- */
+
+/* @media screen and (min-width:767px){
+    h1{
+        color: red;
+    }
+    p{
+        background-color: green;
+    }
+}
+
+
+@media screen and (min-width:991px){
+    h1{
+        color: blue;
+    }
+    p{
+        background-color: yellow;
+    }
+}
+
+@media screen and (min-width:1200px){
+    h1{
+        color: orange;
+    }
+    p{
+        background-color: lavenderblush;
+    }
+} */
+
+/* ---------------------------------------- */
+
+/* orientation -> landscape & portrait */
+
+/* by default all */
+/* @media all and (orientation:portrait){
+    h1{
+        font-size: 10px;
+        color: purple;
+        background-color: linen;
+    }
+}
+
+@media all and (orientation:landscape){
+    h1{
+        font-size: 50px;
+        color: gold;
+        background-color: lightcoral;
+    }
+} */
+
+/* ------------------------------------------- */
+
+
+@media screen and (max-width:500px) , (orientation:landscape) {
+    h1{
+        font-size: 60px;
+        background-color: bisque;
+        color: red;
+    }
+}
+
+
