@@ -1,0 +1,16 @@
+.image{
+    width: 80vw;
+    height: 300vh;
+    margin: 20px auto;
+    border: 5px solid black;
+    background-image: url(https://images.unsplash.com/photo-1711029028695-6db032f5c476?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxOXx8fGVufDB8fHx8fA%3D%3D) ;
+    background-repeat: no-repeat;
+    /* width  height */
+    /* background-size: 30% 10%; */
+    background-position: initial;
+    background-position: center;
+    background-position: left;
+    background-position: right;
+    background-size: contain;
+    background-size: cover;
+}
