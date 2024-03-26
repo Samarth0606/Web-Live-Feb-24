@@ -6,20 +6,30 @@ div{
 
 .side-a{
     background-color: lightsalmon;
-    z-index: ;
+    z-index: 10;
+    backface-visibility: hidden;
 }
 .side-b{
     background-color: beige;
+    transform: rotateY(180deg);
+}
+body{
+    perspective: 600px;
 }
 .wrapper{
     width: 350px;
     height: 250px;
     margin: 100px auto;
     position: relative;
+    transition-duration: 2s;
+    transform-style: preserve-3d;
 
 }
 .side-a , .side-b{
     position: absolute;
+}
+.wrapper:hover{
+    transform: rotateY(180deg);
 }
 
 img{
