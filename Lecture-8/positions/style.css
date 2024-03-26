@@ -1,0 +1,56 @@
+*{
+    padding:0 ;
+    margin:0 ;
+    box-sizing: border-box;
+}
+div{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    text-align: center;
+    margin: 10px;
+}
+#static #middle{
+    position: static;
+    top: 100px;
+    left: 100px;
+}
+
+
+#relative #middle{
+    position: relative;
+    /* offset */
+    /* top: 100px; */
+    /* left: 100px; */
+}
+
+/* #absolute{
+    position: relative;
+} */
+
+#absolute #middle{
+    /* position: absolute; */
+    /* top: 100px; */
+}
+
+#fixed{
+    position: relative;
+}
+
+/* #fixed #middle{ */
+    /* position: fixed; */
+    /* top: 0px; */
+/* } */
+
+#sticky{
+    border: 5px solid olivedrab;
+    height: 500px;
+}
+
+#sticky #middle{
+    position: sticky;
+    top: 100px;
+}
+
+

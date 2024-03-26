@@ -1,0 +1,29 @@
+div{
+    width: 350px;
+    height: 250px;
+    border: 2px solid black;
+}
+
+.side-a{
+    background-color: lightsalmon;
+    z-index: ;
+}
+.side-b{
+    background-color: beige;
+}
+.wrapper{
+    width: 350px;
+    height: 250px;
+    margin: 100px auto;
+    position: relative;
+
+}
+.side-a , .side-b{
+    position: absolute;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
