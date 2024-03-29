@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: beige;
+    display: grid;
+    grid-template-columns: 1fr 5fr 1fr ;
+    grid-template-rows:1fr 5fr 5fr 1fr ;
+    /* gap: 20px; */
+    grid-template-areas: "lappu lappu lappu"
+                         "nav1 main nav3"
+                         "nav2 main nav3"
+                         "footer footer footer"
+}
+.header{
+    background-color: red;
+    /* grid-column-start: 1; grid-column-end: 4; */
+    grid-area: lappu;
+}
+.nav1{
+    background-color: greenyellow;
+    /* grid-column: 1/2; grid-row: 2/3; */
+    grid-area: nav1;
+}
+.nav2{
+    background-color: blueviolet;
+    /* grid-column: 1/2; grid-row: 3/4; */
+    grid-area: nav2;
+}
+.nav3{
+    background-color: blue;
+    /* grid-column: 3/4; grid-row: 2/4; */
+    grid-area: nav3;
+}
+.main{
+    background-color: aqua;
+    /* grid-column: 2/3; grid-row: 2/4; */
+    grid-area: main;
+}
+.footer{
+    background-color: darkorange;
+    /* grid-column: 1/4; grid-row: 4/5; */
+    grid-area: footer;
+}
+
+@media screen and (max-width:767px){
+    .container{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 5fr 5fr 5fr 1fr;
+
+        grid-template-areas: "lappu lappu"
+                             "nav1 nav2"
+                            "main main"
+                            "main nav3"
+                            "footer footer";
+    }
+}
