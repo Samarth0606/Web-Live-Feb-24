@@ -1,0 +1,15 @@
+:root{
+    --bg-color-red : rgb(232, 28, 28);
+    --bg-color-yellow : yellow;
+    --bg-color-bhai : pink;
+}
+
+h1{
+    background-color: var(--bg-color-red);
+}
+h2{
+    background-color: var(--bg-color-bhai);
+}
+h3{
+    background-color: var(--bg-color-yellow);
+}
