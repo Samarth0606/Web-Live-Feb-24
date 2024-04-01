@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.parent{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    width: 100px;
+    height: 100px;
+    border-top: 15px solid red;
+    border-right: 15px solid green;
+    border-bottom: 15px solid blue;
+    border-left: 15px solid yellow;
+    border-radius: 50%;
+
+    animation-name: bouncing;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+
+}
+/* @keyframes bouncing {
+    0%{
+        transform: translateY(50px);
+    }
+    100%{
+        transform: translateY(430px);
+    }
+} */
+
+
+/* rotate */
+@keyframes bouncing {
+    0%{
+        transform: translateX(0px) rotate(0deg);
+    }
+    50%{
+        transform: translateY(430px) rotate(180deg);
+    }
+    100%{
+        transform: translateY(0px) rotate(360deg);
+    }
+}

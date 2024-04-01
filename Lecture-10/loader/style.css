@@ -1,0 +1,35 @@
+.loader{
+    margin: 100px auto;
+    height: 100px;
+    width: 100px;
+    border-top: 15px solid red;
+    border-right: 15px solid green;
+    border-bottom: 15px solid blue;
+    border-left: 15px solid yellow;
+
+
+    border-radius: 50%;
+
+
+    animation-name: loader;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+
+}
+.loader:hover{
+    animation-play-state: paused;
+}
+
+
+
+@keyframes loader {
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+

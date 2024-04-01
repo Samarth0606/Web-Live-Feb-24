@@ -1,0 +1,63 @@
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: darkcyan;
+    /* animation-name: ; */
+    /* ------ */
+    animation-name: lallulaal;
+    animation-duration: 2s;
+    /* animation-timing-function: ease-in; */
+    animation-timing-function: linear;
+    /* animation-delay: 2s; */
+    /* animation-iteration-count: 5; */
+    /* animation-iteration-count: infinite; */
+    animation-iteration-count: 4;
+    animation-direction: normal;
+    /* animation-direction: reverse; */
+    /* animation-direction: alternate; */
+    /* animation-direction: alternate-reverse; */
+    /* animation-fill-mode: forwards; */
+    animation-fill-mode: backwards;
+    animation-play-state: running;
+}
+
+
+.box:hover{
+    animation-play-state: paused;
+
+}
+
+/* way-1 */
+/* @keyframes lallulaal {
+    from{
+        height: 100px;
+    }
+    to{
+        height: 400px;
+    }
+} */
+
+
+/* way-2 */
+/* @keyframes lallulaal {
+    0%{
+        height: 100px;
+    }
+    100%{
+        height: 400px;
+    }
+} */
+
+@keyframes lallulaal {
+    0%{
+        height: 100px;
+        width: 200px;
+        background-color: red;
+    }
+    
+    100%{
+        height: 400px;
+        width: 200px;
+        background-color: cornsilk;
+    }
+}
