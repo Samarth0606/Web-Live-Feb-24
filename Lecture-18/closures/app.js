@@ -13,16 +13,16 @@
 //closure -> whenever a fn is returned , it is never returned alone,
 // it always returns with its dependent lexical env
 
-// function someFun() {
-//   let user = "samarth";
-//   function chotu() {
-//     console.log(user);
-//   }
-//   return chotu;
-// }
+function someFun() {
+  let user = "samarth";
+  function chotu() {
+    console.log(user);
+  }
+  return chotu;
+}
 
-// let ret = someFun();
-// ret();
+let ret = someFun();
+ret();
 
 // ---------------------
 // Q:why were  closures being used?
