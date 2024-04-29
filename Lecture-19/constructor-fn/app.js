@@ -37,14 +37,43 @@
 
 // ---------------------------
 
+// function Lalaji(a, b) {
+//   this.name = a;
+//   this.friendName = b;
+//   this.callFriend = function () {
+//     console.log(`my frnd is ${this.friendName}`);
+//   };
+// }
+// // let out1 = Lalaji("tom", "jerry");
+// let out1 = new Lalaji("tom", "jerry");
+// let out2 = new Lalaji("sam", "maverick");
+// console.log(out1, out2);
+// // console.log(out1.callFriend());
+
+// ------------
+
+// let out3 = {
+//   name: "yogesh",
+//   friendName: "anuj",
+//   callFriend: function () {
+//     console.log(`my frnd is ${this.friendName}`);
+//   },
+// };
+
+// --------------------------------
+
 function Lalaji(a, b) {
   this.name = a;
   this.friendName = b;
-  this.callFriend = function () {
-    console.log(`my frnd is ${this.friendName}`);
-  };
+  //   this.callFriend = function () {
+  //     console.log(`my frnd is ${this.friendName}`);
+  //   };
 }
-// let out1 = Lalaji("tom", "jerry");
+
+Lalaji.prototype.callFriend = function () {
+  console.log(`my frnd is ${this.friendName}`);
+};
+
 let out1 = new Lalaji("tom", "jerry");
-// console.log(out1);
-console.log(out1.callFriend());
+let out2 = new Lalaji("sam", "maverick");
+console.log(out1, out2);
