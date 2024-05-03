@@ -52,17 +52,21 @@
 
 // ------------------------------
 //global scope
-for (var i = 0; i <= 4; i++) {
-  setTimeout(function () {
-    console.log(i);
-  }, 1000);
-}
+// for (var i = 0; i <= 4; i++) {
+//   setTimeout(function () {
+//     console.log(i);
+//   }, 1000);
+// }
 
-// -----------
+// // -----------
 
-//block scope
-for (let i = 0; i <= 4; i++) {
-  setTimeout(function () {
-    console.log(i);
-  }, 1000);
-}
+// //block scope
+// for (let i = 0; i <= 4; i++) {
+//   setTimeout(function () {
+//     console.log(i);
+//   }, 1000);
+// }
+
+// -----------------------
+
+// start -> 4run after 4s -> end
