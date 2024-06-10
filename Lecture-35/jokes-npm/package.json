@@ -1,0 +1,14 @@
+{
+  "name": "jokes-npm",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "give-me-a-joke": "^0.5.1"
+  }
+}
