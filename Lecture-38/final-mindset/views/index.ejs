@@ -1,0 +1,17 @@
+<%- include('./partials/header') %>
+
+    <h1>Form for sending POST request</h1>
+    <form action="/sam" method="POST">
+        <div>
+            <label for="naam">Enter Username</label>
+            <input type="text" name="username" id="naam" placeholder="Enter your name here">
+        </div>
+        <div>
+            <label for="pass">Enter Password</label>
+            <input type="password" name="password" id="pass" placeholder="Enter your pass here">
+        </div>
+        <button>Send</button>
+
+    </form>
+
+<%- include('./partials/footer') %>
