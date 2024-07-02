@@ -24,7 +24,7 @@ const sportSchema = new mongoose.Schema({
 
 })
 
-//model define
+//model define => singular , Capital
 const Sport = mongoose.model('Sport' , sportSchema)
 //vs code mei naam       db mei naam     iski madad se
 

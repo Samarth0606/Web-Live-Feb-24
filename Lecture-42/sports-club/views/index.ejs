@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>DISPLAYING ALL THE SPORTS</h1>
+    <% for(let item of allSports){ %>
+        <h2> <%=item._id%> </h2>
+        <h2> <%=item.title%> </h2>
+        <h2> <%=item.year%> </h2>
+        <h2> <%=item.isPlayed%> </h2>
+        <h2> <%=item.description%> </h2>
+    <% } %>
+</body>
+</html>
