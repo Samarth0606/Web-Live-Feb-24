@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Form for adding a new Sport</h1>
+    <!-- get , post ✅ -->
+    <!-- delete , patch  , put ❌ -->
+    <form action="/sports/<%=foundSport._id%>?_method=PATCH" method="POST">
+        Title:
+        <input type="text" name="title" value="<%=foundSport.title%>">
+        <br>
+        year:
+        <input type="number" name="year" value="<%=foundSport.year%>">
+        <br>
+        Description:
+        <textarea name="description"> <%=foundSport.description%> </textarea>
+        <br>
+        <button>Edit Sport</button>
+    </form>
+</body>
+</html>
