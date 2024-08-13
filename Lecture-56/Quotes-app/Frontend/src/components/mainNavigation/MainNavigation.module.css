@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 70px;
+    font-size: 30px;
+}
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    justify-content: left;
+    gap: 40px;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+}
